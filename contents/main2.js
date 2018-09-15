@@ -6,7 +6,7 @@ ros.on('close', function() {console.log('websocket: closed'); });
 
 var ls = new ROSLIB.Topic({
     ros : ros,
-    name : '/lightsensers',
+    name : '/lightsensors',
     messageType : 'pimouse_ros/LightSensorValues'
 });
 
